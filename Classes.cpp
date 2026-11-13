@@ -42,12 +42,7 @@ void Tractor::make_sound()
 // ==================== Farm ====================
 Farm::Farm()
 {
-    sheep.push_back(Sheep("Shirley"));
-    sheep.push_back(Sheep("Sheila"));
-    cows.push_back(Cow("Mimosa"));
-    tractors.push_back(Tractor("John Deere"));
-    tractors.push_back(Tractor("New Holland"));
-    tractors.push_back(Tractor("Massey Ferguson"));
+
 }
 
 FarmAsset Farm::get_iterator()
